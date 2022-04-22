@@ -39,9 +39,6 @@ app.post('/user', async (req, res) => {
     res.send(user);
 })
 
-app.get('fruits', (req, res) => {
-    res.send('banana', 'mango', 'orange')
-})
 
 app.listen(port, () => {
     console.log('Listen to port', port)
